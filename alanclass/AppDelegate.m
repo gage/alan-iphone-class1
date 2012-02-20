@@ -24,7 +24,19 @@
     } else {
         self.viewController = [[ViewController alloc] initWithNibName:@"ViewController_iPad" bundle:nil];
     }
-    self.window.rootViewController = self.viewController;
+    
+    UINavigationController *nav=[[UINavigationController alloc] initWithRootViewController:self.viewController];
+  
+    
+    UIViewController *v2 = [[ViewController alloc] initWithNibName:@"ViewController_iPhone" bundle:nil];
+    [nav  pushViewController:v2 animated:NO];
+    
+     
+    
+    UIViewController *v3 = [[ViewController alloc] initWithNibName:@"View" bundle:nil];
+    [nav  pushViewController:v3 animated:NO];
+    
+    self.window.rootViewController = nav;
     [self.window makeKeyAndVisible];
     return YES;
 }

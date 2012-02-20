@@ -10,4 +10,12 @@
 
 @interface ViewController : UIViewController
 
+{
+
+    IBOutlet UILabel *xLabel;
+}
+
+
+
+
 @end

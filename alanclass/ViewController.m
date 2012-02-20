@@ -10,6 +10,15 @@
 
 @implementation ViewController
 
+
+-(IBAction)pushpush
+{
+    UIViewController *v2 = [[ViewController alloc] initWithNibName:@"ViewController_iPhone" bundle:nil];
+    
+    [self.navigationController pushViewController:v2 animated:YES];
+}
+
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
@@ -22,6 +31,17 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    UIButton *btn=[UIButton buttonWithType:UIButtonTypeCustom];
+    [self.view addSubview:btn];
+    
+    btn.frame=CGRectMake(100, 100, 100, 50);
+    
+    btn.backgroundColor =[UIColor redColor];
+    
+    [btn addTarget:self action:@selector(pushpush) forControlEvents:UIControlEventTouchUpInside];
+    
+    
 }
 
 - (void)viewDidUnload

@@ -21,6 +21,7 @@
 		1C65549614F268F80036B64D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C65547414F268F80036B64D /* Foundation.framework */; };
 		1C65549E14F268F80036B64D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1C65549C14F268F80036B64D /* InfoPlist.strings */; };
 		1C6554A114F268F80036B64D /* alanclassTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6554A014F268F80036B64D /* alanclassTests.m */; };
+		1C6554AB14F270B50036B64D /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C6554AA14F270B50036B64D /* View.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,22 +39,23 @@
 		1C65547214F268F80036B64D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1C65547414F268F80036B64D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1C65547614F268F80036B64D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		1C65547A14F268F80036B64D /* alanclass-Info.plist */ = {isa = PBXFileReference; path = "alanclass-Info.plist"; sourceTree = "<group>"; };
+		1C65547A14F268F80036B64D /* alanclass-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "alanclass-Info.plist"; sourceTree = "<group>"; };
 		1C65547C14F268F80036B64D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1C65547E14F268F80036B64D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1C65548014F268F80036B64D /* alanclass-Prefix.pch */ = {isa = PBXFileReference; path = "alanclass-Prefix.pch"; sourceTree = "<group>"; };
-		1C65548114F268F80036B64D /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		1C65548014F268F80036B64D /* alanclass-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "alanclass-Prefix.pch"; sourceTree = "<group>"; };
+		1C65548114F268F80036B64D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1C65548214F268F80036B64D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1C65548414F268F80036B64D /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		1C65548414F268F80036B64D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		1C65548514F268F80036B64D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1C65548814F268F80036B64D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
 		1C65548B14F268F80036B64D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
 		1C65549214F268F80036B64D /* alanclassTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = alanclassTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C65549314F268F80036B64D /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		1C65549B14F268F80036B64D /* alanclassTests-Info.plist */ = {isa = PBXFileReference; path = "alanclassTests-Info.plist"; sourceTree = "<group>"; };
+		1C65549B14F268F80036B64D /* alanclassTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "alanclassTests-Info.plist"; sourceTree = "<group>"; };
 		1C65549D14F268F80036B64D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		1C65549F14F268F80036B64D /* alanclassTests.h */ = {isa = PBXFileReference; path = alanclassTests.h; sourceTree = "<group>"; };
+		1C65549F14F268F80036B64D /* alanclassTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = alanclassTests.h; sourceTree = "<group>"; };
 		1C6554A014F268F80036B64D /* alanclassTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = alanclassTests.m; sourceTree = "<group>"; };
+		1C6554AA14F270B50036B64D /* View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 				1C65548514F268F80036B64D /* ViewController.m */,
 				1C65548714F268F80036B64D /* ViewController_iPhone.xib */,
 				1C65548A14F268F80036B64D /* ViewController_iPad.xib */,
+				1C6554AA14F270B50036B64D /* View.xib */,
 				1C65547914F268F80036B64D /* Supporting Files */,
 			);
 			path = alanclass;
@@ -228,6 +231,7 @@
 				1C65547D14F268F80036B64D /* InfoPlist.strings in Resources */,
 				1C65548914F268F80036B64D /* ViewController_iPhone.xib in Resources */,
 				1C65548C14F268F80036B64D /* ViewController_iPad.xib in Resources */,
+				1C6554AB14F270B50036B64D /* View.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
